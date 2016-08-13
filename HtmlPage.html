@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="NavigationBar.css" />
+        <script type="text/javascript" src="NavigationBar.js"> </script>
+        <script type="text/javascript" src="Experiment_2.js"> </script>
+        <title>Ujjawal Sharma Testing Website!</title>
+    </head>
+    <body background="444468-background-image-in-html.jpg">
+
+        <center>
+            <h1>Ujjawal Sharma Website</h1>
+
+            <img type="image/png" src="main_logo.gif" style="float: left;">
+            <p align="right" style="color:steelblue"> Contact me: +16192191353  </p>
+            <!--
+                </center>
+            <h2>Resize this responsive page!</h2>
+            <center>
+
+                <img src="ujji_philanderer_2016-05-05_00-46-41.jpg" alt="Ujju Pandat!" style="width:304px;height:228px;" align="middle">
+                -->
+        </center><br />
+
+        <center>
+            <h4>INCREDIBLE INDIA!</h4>
+        </center>
+
+
+        <!--
+            <div class="w3-content" style="max-width:1000px;position:relative">
+                <img class="mySlides" src="download.jp  g" style="width:17%">
+                <img class="mySlides" src="images (1).jpg" style="width:20%">
+                <img class="mySlides" src="images (2).jpg" style="width:20%">
+                <img class="mySlides" src="images (3).jpg" style="width:20%">
+                <img class="mySlides" src="images (4).jpg" style="width:20%">
+
+                <a class="w3-btn-floating" onclick="plusDivs(-1)" style="position:absolute;top:45%;left:0">❮</a>
+                <a class="w3-btn-floating" onclick="plusDivs(+1)" style="position:absolute;top:45%;right:0">❯</a>
+                </div>
+        -->
+
+        <h2 class="w3-center"></h2>
+        <center>
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="ujji_philanderer_2016-05-05_00-46-41.jpg" style="width:50%">
+                <img class="mySlides" src="images (1).jpg" style="width:50%">
+                <img class="mySlides" src="download.jpg" style="width:50%">
+                <img class="mySlides" src="images (2).jpg" style="width:50%">
+                <img class="mySlides" src="images (3).jpg" style="width:50%">
+                <img class="mySlides" src="images (4).jpg" style="width:50%">
+                <img class="mySlides" src="images (3).jpg" style="width:50%">
+            </div>
+        </center>
+
+        <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+        </script>
+
+        <ul>
+            <li class="dropdown">
+                <a href="javascript:void(1)" class="dropbtn1" onclick="myFunction2()">About</a>
+                <div class="dropdown-content1" id="myDropdown1">
+                    <a href="https://sunspot.sdsu.edu/pls/webapp/web_menu.login//">SDSU</a>
+                    <a href="https://sunspot.sdsu.edu/pls/webapp/web_menu.login//">SDSU1</a>
+                    <a href="https://sunspot.sdsu.edu/pls/webapp/web_menu.login//">SDSU2</a>
+                    <a href="https://sunspot.sdsu.edu/pls/webapp/web_menu.login//">SDSU3</a>
+
+                </div>
+            </li>
+
+            <li><a href="http://timesofindia.indiatimes.com/">News</a></li>
+
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">San Diego State University</a>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="https://sunspot.sdsu.edu/pls/webapp/web_menu.login//">SDSU</a>
+                    <a href="http://www.cs.sdsu.edu/">Computer Science Department</a>
+                    <a href="http://www.cs.sdsu.edu/about/">Web & Mobile App Certificate</a>
+
+                </div>
+            </li>
+
+            <li class="LinkedIn">
+                <a target="_blank" href="https://in.linkedin.com/in/ujjawal-sharma-a420598b
+" onclick="LinkedIn">Connect on LinkedIn</a>
+
+            </li>
+
+            <li class="Facebook">
+                <a target="_blank" href="https://www.facebook.com" onClick="Facebook()">Connect on Facebook</a>
+            </li>
+            <li>
+                <a class="anav current" href="http://localhost:3982/HtmlPage.html">Submit Resume</a>
+            </li>
+
+        </ul>
+</head>
+<body>
+
+</body>
+</html>
